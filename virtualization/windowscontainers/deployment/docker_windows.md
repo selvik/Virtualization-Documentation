@@ -223,7 +223,7 @@ An environmental variable DOCKER_HOST can be created that will remove the –H p
 $env:DOCKER_HOST = "tcp://<ipaddress of server:2376"
 ```
 
-With this variable set, the command would not look like this.
+With this variable set, the command would now look like this.
 
 ```none
 docker run –it nanoserver cmd
